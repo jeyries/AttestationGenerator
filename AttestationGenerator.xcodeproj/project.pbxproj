@@ -11,6 +11,13 @@
 		F95E61602581324700C1F390 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95E615F2581324700C1F390 /* ContentView.swift */; };
 		F95E61622581324800C1F390 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F95E61612581324800C1F390 /* Assets.xcassets */; };
 		F95E61652581324800C1F390 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F95E61642581324800C1F390 /* Preview Assets.xcassets */; };
+		F95E6174258132E500C1F390 /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95E616D258132E500C1F390 /* DisplayView.swift */; };
+		F95E6175258132E500C1F390 /* Attestation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95E616E258132E500C1F390 /* Attestation.swift */; };
+		F95E6176258132E500C1F390 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95E616F258132E500C1F390 /* Storage.swift */; };
+		F95E6177258132E500C1F390 /* Reason.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95E6170258132E500C1F390 /* Reason.swift */; };
+		F95E6178258132E500C1F390 /* FormModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95E6171258132E500C1F390 /* FormModel.swift */; };
+		F95E6179258132E500C1F390 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95E6172258132E500C1F390 /* FormView.swift */; };
+		F95E617A258132E500C1F390 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95E6173258132E500C1F390 /* QRCode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +27,13 @@
 		F95E61612581324800C1F390 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F95E61642581324800C1F390 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F95E61662581324800C1F390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F95E616D258132E500C1F390 /* DisplayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
+		F95E616E258132E500C1F390 /* Attestation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attestation.swift; sourceTree = "<group>"; };
+		F95E616F258132E500C1F390 /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		F95E6170258132E500C1F390 /* Reason.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reason.swift; sourceTree = "<group>"; };
+		F95E6171258132E500C1F390 /* FormModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormModel.swift; sourceTree = "<group>"; };
+		F95E6172258132E500C1F390 /* FormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		F95E6173258132E500C1F390 /* QRCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +66,13 @@
 		F95E615C2581324700C1F390 /* AttestationGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				F95E616E258132E500C1F390 /* Attestation.swift */,
+				F95E616D258132E500C1F390 /* DisplayView.swift */,
+				F95E6171258132E500C1F390 /* FormModel.swift */,
+				F95E6172258132E500C1F390 /* FormView.swift */,
+				F95E6173258132E500C1F390 /* QRCode.swift */,
+				F95E6170258132E500C1F390 /* Reason.swift */,
+				F95E616F258132E500C1F390 /* Storage.swift */,
 				F95E615D2581324700C1F390 /* AttestationGeneratorApp.swift */,
 				F95E615F2581324700C1F390 /* ContentView.swift */,
 				F95E61612581324800C1F390 /* Assets.xcassets */,
@@ -138,8 +159,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F95E6179258132E500C1F390 /* FormView.swift in Sources */,
+				F95E6178258132E500C1F390 /* FormModel.swift in Sources */,
+				F95E6175258132E500C1F390 /* Attestation.swift in Sources */,
+				F95E6174258132E500C1F390 /* DisplayView.swift in Sources */,
 				F95E61602581324700C1F390 /* ContentView.swift in Sources */,
+				F95E617A258132E500C1F390 /* QRCode.swift in Sources */,
+				F95E6177258132E500C1F390 /* Reason.swift in Sources */,
 				F95E615E2581324700C1F390 /* AttestationGeneratorApp.swift in Sources */,
+				F95E6176258132E500C1F390 /* Storage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
