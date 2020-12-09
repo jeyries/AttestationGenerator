@@ -18,6 +18,7 @@
 		F95E6178258132E500C1F390 /* FormModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95E6171258132E500C1F390 /* FormModel.swift */; };
 		F95E6179258132E500C1F390 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95E6172258132E500C1F390 /* FormView.swift */; };
 		F95E617A258132E500C1F390 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95E6173258132E500C1F390 /* QRCode.swift */; };
+		F95E617D258134F400C1F390 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = F95E617C258134F400C1F390 /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		F95E6171258132E500C1F390 /* FormModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormModel.swift; sourceTree = "<group>"; };
 		F95E6172258132E500C1F390 /* FormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 		F95E6173258132E500C1F390 /* QRCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
+		F95E617C258134F400C1F390 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 		F95E61512581324700C1F390 = {
 			isa = PBXGroup;
 			children = (
+				F95E617C258134F400C1F390 /* Readme.md */,
 				F95E615C2581324700C1F390 /* AttestationGenerator */,
 				F95E615B2581324700C1F390 /* Products */,
 			);
@@ -149,6 +152,7 @@
 			files = (
 				F95E61652581324800C1F390 /* Preview Assets.xcassets in Resources */,
 				F95E61622581324800C1F390 /* Assets.xcassets in Resources */,
+				F95E617D258134F400C1F390 /* Readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
